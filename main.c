@@ -27,11 +27,11 @@ int main() {
 
     v1= (float) poten * 3.3/4095;
     int Pote = v1 * 35/3.3; 
-    printf("Temp de POTE %d\n", Pote);
+    printf("Temp de pote %d\n", Pote);
 
     v2= (float) lm * 3.3 / 4095;
     int lm35= v2*100;
-    printf("Temp de LM %d\n", lm35);
+    printf("Temp de lm35 %d\n", lm35);
 
     sleep_ms(500);
 
